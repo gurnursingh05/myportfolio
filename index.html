@@ -100,6 +100,17 @@
         font-size: 30px;
       }
 
+      .top span {
+          color: #0ef;
+          animation: color-change 10s infinite;
+        }
+
+      @keyframes color-change {
+          100% {
+          filter: hue-rotate(360deg);
+        } 
+        }
+
       @media (min-width: 768px) {
         .navbar {
           padding: 20px 50px;
