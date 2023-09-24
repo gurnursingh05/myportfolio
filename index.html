@@ -155,6 +155,17 @@
         .resume {
           font-size: 30px;
         }
+
+        .top span {
+          color: #0ef;
+          animation: color-change 10s infinite;
+        }
+
+      @keyframes color-change {
+          100% {
+          filter: hue-rotate(360deg);
+        } 
+        }
       }
     </style>
   </head>
@@ -185,7 +196,7 @@
     <div class="container">
       <div class="left">
         <div class="top">
-          <p class="statement">I create playful experiences.</p>
+          <p class="statement">I create <span>playful</span> experiences.</p>
         </div>
         <div class="bottom">
           <p class="name">Gurnur Singh/Software Developer</p>
